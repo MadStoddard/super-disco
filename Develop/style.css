@@ -23,11 +23,13 @@ textarea{
 
 .description{
   white-space: pre-wrap;
+  width: 70%;
 }
 
 .time-block{
   text-align: center;
   border-radius: 15px;
+  width: 100%;
 }
 
 .row {
@@ -40,6 +42,7 @@ textarea{
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  width: 15%;
 }
 
 .past {
@@ -68,4 +71,10 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+.container {
+  /* display: flex; */
+  /* flex-direction: row; */
+  width: 90%
 }
